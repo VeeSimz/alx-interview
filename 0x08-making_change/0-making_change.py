@@ -4,7 +4,8 @@
 
 def makeChange(coins, total):
     """ Given coins with different values,
-        determine the least number of coins needed to meet a given amount total """
+        determine the least number of coins needed to meet a given amount total
+    """
     if total <= 0:
         return 0
     val = [0] + [float("inf")] * (total)
